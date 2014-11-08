@@ -87,3 +87,14 @@ section > h1 {
     text-shadow: 5px 5px 5px white;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .content-footer > ul {
+    word-spacing: 2em;
+    text-align: center;
+    padding: .4em;
+  }
+}
