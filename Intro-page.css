@@ -1,15 +1,89 @@
-h2 {
-	font-family: serif;
-
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1 em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-img {
-	height: 600px;
-	width: 100%;
-	text-align: center;
-	text-indent: center;
+.masthead-heading, 
+.masthead-intro,
+.content-footer {
+  text-align: center;
 }
 
-div {
-	text-align: center;
+.masthead {
+  padding: 6em 0;
+  background-image: url("http://mosaicoutdoor.files.wordpress.com/2012/03/colorado-springs.jpg");
+  background-size: cover;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: yellow;
+  text-shadow: 5px 5px 6px black;
+}
+
+.masthead-heading {
+  margin-top: -.0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold; 
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ff7519;
+  text-shadow: 5px 5px 5px blue;
+}
+
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+section > h1 {
+  margin-top 2em;
+}
+
+.content-footer {
+  background-color: orange;
+  color: blue;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+  .masthead-heading {
+    color: blue;
+    text-shadow: 5px 5px 5px black;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .masthead-heading {
+    font-size: 3em;
+    text-shadow: 5px 5px 5px white;
+  }
 }
